@@ -1,0 +1,5 @@
+rem PAGE action
+rem COPY action
+
+call Confluence.bat --action copyPage --title "%title%" --space "%spaceFrom%" --newTitle "%newTitle%" --newSpace "%newSpace%" --parent "%parentPage%"
+call Confluence.bat --action copyPageChildren --title "%title%" --space "%spaceFrom%" --newTitle "%newTitle%" --parent "%parentPage%"
